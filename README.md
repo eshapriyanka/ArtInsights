@@ -1,4 +1,11 @@
-# 🎨 ArtInsights: Neural Style Transfer & AI Artwork Detection
+- Designed a two-part computer vision pipeline to (1) apply artistic styles to input images, and (2) detect whether an artwork is AI-generated or human-made.
+- Implemented VGG-based neural style transfer and a custom CNN for stylization, achieving high visual fidelity on Cubism-styled renderings.
+- Built and benchmarked fake detection models using DINOv2 (Champion) and EfficientNet (Challenger), evaluating performance across pure and hybrid datasets with ROC-AUC and F1 metrics.
+- Deployed top-performing models into a real-time Streamlit web app for live testing, enabling users to apply style transfer or detect image authenticity through an interactive interface.
+
+- Applied best practices in PyTorch, including label encoding, normalization, early stopping, learning rate scheduling, and custom loss functions.
+
+🎨 ArtInsights: Neural Style Transfer & AI Artwork Detection
 
 ArtInsights is a Computer Vision application that combines **Neural Style Transfer** and **AI-Generated Artwork Detection** into a single interactive platform. The project enables users to transform images into artistic styles and analyze whether an artwork is human-created or AI-generated.
 
