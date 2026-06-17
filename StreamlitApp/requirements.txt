@@ -8,3 +8,4 @@ matplotlib
 numpy
 tqdm
 joblib
+tensorflow==2.15.0
